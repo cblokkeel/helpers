@@ -28,5 +28,9 @@
   "files": [
     "dist/*.js",
     "dist/*.d.ts" 
+  ],
+  "repository": [
+    "type": "git",
+    "url": "https://github.com/cblokkeel/helpers"
   ]
 }
