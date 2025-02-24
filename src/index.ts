@@ -1,1 +1,2 @@
-console.log("Hello via Bun!");
+export { tryCatch, asyncTryCatch } from "./trycatch";
+
