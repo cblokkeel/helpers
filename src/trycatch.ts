@@ -20,7 +20,7 @@ export function tryCatch<T>(cb: () => T, finallyCb?: () => void): {
     }
 }
 
-export async function asyncTryCatch<T>(cb: () => T, finallyCb?: () => void): Promise<{
+export async function asyncTryCatch<T>(cb: () => Promise<T>, finallyCb?: () => void): Promise<{
     data: T;
     error: string;
 }> {
